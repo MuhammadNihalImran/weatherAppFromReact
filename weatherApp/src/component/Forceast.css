@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+  .auto {
+    overflow-x: auto !important;
+    width: 100% !important;
+    padding: 0 !important;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+  }
+  .card {
+    width: 100px !important;
+    height: 200px !important;
+  }
+}

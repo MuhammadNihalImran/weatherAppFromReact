@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .search {
+    width: 100vw !important;
+    /* height: 20vh !important; */
+    display: flex !important;
+    padding: 3rem !important;
+    /* height: 100vh !important; */
+  }
+  #outlined-basic {
+    width: 100% !important;
+    height: 5vh !important;
+  }
+  .button {
+    height: 5vh !important;
+  }
+  .autofollow {
+    background-color: aqua !important;
+    overflow-x: auto !important;
+  }
+}
